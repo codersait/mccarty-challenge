@@ -1,0 +1,124 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background: #f8fafc;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #928989;
+}
+.container {
+  max-width: 600px;
+  margin: 10vh auto;
+  background: white;
+  border-radius: 10px;
+}
+.form {
+  padding: 1rem 1rem;
+  max-width: 500px;
+  margin: auto;
+  /* position: relative; */
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #000000bc;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #000000bc;
+}
+.form-input {
+  width: 100%;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border: none;
+  border-radius: 5px;
+}
+.form-row {
+  margin-bottom: 1rem;
+}
+.provider {
+  /* display: block; */
+  width: 14rem;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  letter-spacing: 1px;
+}
+.providers {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.facebook {
+  background: #395693;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.provider a {
+  /* color: white; */
+}
+.facebook-icon {
+  background: #395693;
+  color: 395693;
+  font-size: 2rem;
+}
+.facebook-icon a {
+  color: white;
+}
+.google-icon {
+  font-size: 2rem;
+}
+.google-icon i {
+  color: #fbbc05;
+}
+.google {
+  background: white;
+  color: gray;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: tomato;
+}
+.btn-block {
+  width: 100%;
+  padding: 1.5rem;
+  border: none;
+  background: #000000bc;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.footer-text {
+  text-align: center;
+  color: #928989;
+}
+.provider-text {
+  font-size: 1.1rem;
+}
