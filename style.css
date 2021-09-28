@@ -59,6 +59,7 @@ h2 {
   justify-content: center;
   gap: 1rem;
   letter-spacing: 1px;
+  align-items: center;
 }
 .providers {
   margin-bottom: 2rem;
@@ -73,9 +74,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.provider a {
-  /* color: white; */
-}
+
 .facebook-icon {
   background: #395693;
   color: 395693;
@@ -87,9 +86,9 @@ h2 {
 .google-icon {
   font-size: 2rem;
 }
-.google-icon i {
+/* .google-icon i {
   color: #fbbc05;
-}
+} */
 .google {
   background: white;
   color: gray;
@@ -121,4 +120,8 @@ h2 {
 }
 .provider-text {
   font-size: 1.1rem;
+}
+img {
+  display: block;
+  object-fit: cover;
 }
